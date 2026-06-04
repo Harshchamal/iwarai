@@ -15,7 +15,7 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://iwarai.com"),
+  metadataBase: new URL("https://www.iwarai.com"),
   title: "IWARAI — The Future of Smart Kitchen Storage",
   description:
     "IWARAI is a smart kitchen inventory platform. Track spices, sugar, flour and rice automatically with IoT-enabled smart containers, real-time monitoring, and low-stock alerts.",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     title: "IWARAI — The Future of Smart Kitchen Storage",
     description:
       "Track spices, sugar, flour and pantry essentials automatically with intelligent IoT containers and real-time inventory monitoring.",
-    url: "https://iwarai.com",
+    url: "https://www.iwarai.com",
     siteName: "IWARAI",
     type: "website",
     locale: "en_US",
@@ -43,6 +43,7 @@ export const metadata: Metadata = {
       "Smart IoT containers that track your kitchen ingredients in real time and alert you before you run out.",
   },
   robots: { index: true, follow: true },
+  verification: { google: "A0MbER3W75aTIRAGETXKYf2Wxl_EihagpQtmWSHElVE" },
 };
 
 export default function RootLayout({
